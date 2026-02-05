@@ -5,20 +5,20 @@
 class Dbharness < Formula
   desc "DB Harness project initializer"
   homepage "https://github.com/genesisdayrit/dbharness"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_intel do
-      url "https://github.com/genesisdayrit/dbharness/releases/download/v0.1.1/dbharness_0.1.1_darwin_amd64.tar.gz"
-      sha256 "cfd3f4c67e9facbcb69c4cdfe71f3ffa8d6ffe1a89c95d1d0cdfa815347f8b75"
+      url "https://github.com/genesisdayrit/dbharness/releases/download/v0.1.2/dbharness_0.1.2_darwin_amd64.tar.gz"
+      sha256 "4dfd246a8c5e6f7261ad1f86c2bac0039624b4e7ff171ad1c02661655ce81108"
 
       def install
         bin.install "dbharness"
       end
     end
     on_arm do
-      url "https://github.com/genesisdayrit/dbharness/releases/download/v0.1.1/dbharness_0.1.1_darwin_arm64.tar.gz"
-      sha256 "09f3430d3bfa2775fd459af8bffd5bda36a56b08c65628a6572656689c72e608"
+      url "https://github.com/genesisdayrit/dbharness/releases/download/v0.1.2/dbharness_0.1.2_darwin_arm64.tar.gz"
+      sha256 "941c21aea17d4d09d91f7030f1a8ace9c04fb44a444ba68c49a2fd8c27da0a31"
 
       def install
         bin.install "dbharness"
@@ -29,8 +29,8 @@ class Dbharness < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/genesisdayrit/dbharness/releases/download/v0.1.1/dbharness_0.1.1_linux_amd64.tar.gz"
-        sha256 "e8885b45c7eb2609b3e1873988ed9d9fb12bfc5e0f533f63a6b771b406c61265"
+        url "https://github.com/genesisdayrit/dbharness/releases/download/v0.1.2/dbharness_0.1.2_linux_amd64.tar.gz"
+        sha256 "a6e5eccdaba33e5678773cdd9d1bddc69adc2bff852d434a544c628bf936b23a"
 
         def install
           bin.install "dbharness"
@@ -39,8 +39,8 @@ class Dbharness < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/genesisdayrit/dbharness/releases/download/v0.1.1/dbharness_0.1.1_linux_arm64.tar.gz"
-        sha256 "4c86c9355bfff417955f8b4cbe3dd1fe4b100b33588cc6a154dd8de17b92ad17"
+        url "https://github.com/genesisdayrit/dbharness/releases/download/v0.1.2/dbharness_0.1.2_linux_arm64.tar.gz"
+        sha256 "3b369a4045132fad3f911bb3ed11825bfb080e26934d9345b1130a315f583422"
 
         def install
           bin.install "dbharness"
