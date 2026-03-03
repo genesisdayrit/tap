@@ -5,20 +5,20 @@
 class Dbh < Formula
   desc "DB Harness project initializer"
   homepage "https://github.com/genesisdayrit/dbharness"
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/genesisdayrit/dbharness/releases/download/v0.3.0/dbh_0.3.0_darwin_amd64.tar.gz"
-      sha256 "95947ea44b8033cd0cb598fc05c97fa932c1c66f30858cab7483b61959e98ffc"
+      url "https://github.com/genesisdayrit/dbharness/releases/download/v0.4.0/dbh_0.4.0_darwin_amd64.tar.gz"
+      sha256 "6eb249fa0a47536558d6e3282b9359efab86387b99d26531daa940c4bf844f43"
 
       def install
         bin.install "dbh"
       end
     end
     on_arm do
-      url "https://github.com/genesisdayrit/dbharness/releases/download/v0.3.0/dbh_0.3.0_darwin_arm64.tar.gz"
-      sha256 "c3772edcad2f47e68a20f4166f27ddd0a10892b2b9ebaa620c03737c87e79b13"
+      url "https://github.com/genesisdayrit/dbharness/releases/download/v0.4.0/dbh_0.4.0_darwin_arm64.tar.gz"
+      sha256 "3eb91cc2c094989ce25cd1f6252eb6fe47a984877d140a82610baa67adc80769"
 
       def install
         bin.install "dbh"
@@ -29,8 +29,8 @@ class Dbh < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/genesisdayrit/dbharness/releases/download/v0.3.0/dbh_0.3.0_linux_amd64.tar.gz"
-        sha256 "73e931e20c5968545a29e35378485d62f4d2038b322198abb04ced67842e429f"
+        url "https://github.com/genesisdayrit/dbharness/releases/download/v0.4.0/dbh_0.4.0_linux_amd64.tar.gz"
+        sha256 "9cdf82cd7441ecaa595ffd301cab70c50c5a448cbefb04ea55301a2023fd90d8"
 
         def install
           bin.install "dbh"
@@ -39,8 +39,8 @@ class Dbh < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/genesisdayrit/dbharness/releases/download/v0.3.0/dbh_0.3.0_linux_arm64.tar.gz"
-        sha256 "e640779aaf8422a004e75e004bff6cfabec590764f323ab0a522c744df379af5"
+        url "https://github.com/genesisdayrit/dbharness/releases/download/v0.4.0/dbh_0.4.0_linux_arm64.tar.gz"
+        sha256 "13560251e01682831c652db08c6fbdfd1a7b3ae7137d9c79566c434c39ec517f"
 
         def install
           bin.install "dbh"
