@@ -1,25 +1,25 @@
 class Grove < Formula
   desc "Create and jump between git worktrees from the terminal"
   homepage "https://github.com/genesisdayrit/grove"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/genesisdayrit/grove/releases/download/v0.1.0/grove-aarch64-apple-darwin.tar.xz"
-      sha256 "a44073b5df760d6c799f184546cb40105e8af8bfe1226b02ecb366bab998712c"
+      url "https://github.com/genesisdayrit/grove/releases/download/v0.1.1/grove-aarch64-apple-darwin.tar.xz"
+      sha256 "d7952d3c5827a1b2740999d1d356a0018cd5cd886be816e43451fbb296652277"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/genesisdayrit/grove/releases/download/v0.1.0/grove-x86_64-apple-darwin.tar.xz"
-      sha256 "f7fcff0cbd800ea184f1c5f44e70986ca98d4335fc1d881d27f0821a682cb5a1"
+      url "https://github.com/genesisdayrit/grove/releases/download/v0.1.1/grove-x86_64-apple-darwin.tar.xz"
+      sha256 "66d6f0adc51a5fed5a2cd0ff80b129cc0ea1ba19b72d304bff8ec24085c3a136"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/genesisdayrit/grove/releases/download/v0.1.0/grove-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3011c9713787bfca7c16ec8e2e7e4489cc0bb29e01b64bed7f78650a9feeefc4"
+      url "https://github.com/genesisdayrit/grove/releases/download/v0.1.1/grove-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4ea59bd18f3a399262191b938845acebe3bc6cb880fa52e9a205ae823e0edf06"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/genesisdayrit/grove/releases/download/v0.1.0/grove-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "d3e4e2a5e3d1aa454bf14aec0eb5561128396b75b8ab424fca77df36c8595a51"
+      url "https://github.com/genesisdayrit/grove/releases/download/v0.1.1/grove-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "ae9b70269d63c8718c223f129a078dcc8de4369a302ccea9bf8ba552832d4f9d"
     end
   end
 
